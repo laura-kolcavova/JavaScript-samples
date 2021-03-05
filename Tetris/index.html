@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tetris</title>
+
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+
+	<div id="wrapper">
+		<div class="frame" id="scoreFrame">
+			<h2>Score</h2>
+
+			<div class="box">
+				<p id="scoreText"></p>
+			</div>
+		</div>
+
+		<div class="frame" id="levelFrame">
+			<h2>Level</h2>
+
+			<div class="box">
+				<p id="levelText"></p>
+			</div>
+		</div>
+
+		<div class="frame" id="nextBlock">
+			<h2>Next</h2>
+
+			<div class="box">
+			</div>
+		</div>
+
+		<div id="gameOver">
+			<div id="darkBackground"></div>
+			<div id="text">
+				<p>GAME OVER</p>
+				<p><span id="restart">Restart<span></p>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="tetris.js"></script>
+</body>
+</html>
