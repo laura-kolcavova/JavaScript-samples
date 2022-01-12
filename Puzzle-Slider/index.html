@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Puzzle Slider</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<script type="text/javascript" src="js/imageRepository.js"></script>
+	<script type="text/javascript" src="js/puzzleSlider.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<div id="page">
+		<div id="wrapper">
+			<div id="selectPicture">
+				<input id="inputPicture" type="file" />
+			</div>
+
+			<div id="canvasWrapper">
+				<canvas id="mainCanvas"></canvas>
+			</div>
+
+			<div id="aside">
+				<h3>Blocks</h3>
+				<label for="inputX">x: </label>
+				<input id="inputX" class="numInput" type="number" min="3" max="10" />
+
+				<label for="inputY">y: </label>
+				<input id="inputY" class="numInput" type="number" min="3" max="10" />
+
+				<h3>Game</h3>
+				<select id="selectGame">
+					<option value="0">Numbers</option>
+					<option value="1">Picture</option>
+				</select>
+
+				<br/>
+				<button id="btnPlay">PLAY!</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

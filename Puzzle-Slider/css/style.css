@@ -1,0 +1,64 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	display: table;
+}
+
+h3 {
+	margin-bottom: 5px;
+	margin-top: 30px;
+}
+
+canvas {
+	background-color: #152C3D;
+}
+
+#aside{
+	text-align: center;
+	width: 180px;
+	float: right;
+}
+
+#page {
+	display: table-cell;
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#wrapper {
+	display: inline-block;
+	width: 600px;
+	height: 500px;
+	border: 2px solid gray;
+	text-align: left;
+}
+
+#canvasWrapper {
+	float: left;
+	width: 400px;
+	height: 400px;
+	margin: 10px 0px 20px 20px;
+}
+
+#selectPicture {
+	margin: 20px;
+}
+
+#btnPlay {
+
+	margin-top: 50px;
+	width: 70px;
+	height: 50px;
+}
+
+.numInput {
+	text-align: center;
+	width: 40px;
+	margin: 0px 5px 5px 0px;
+}
